@@ -1,33 +1,32 @@
-*Few get starter UV commands*
+# Few get starter UV commands
 
-*1.* Download uv from official docs via powershell
+*1.* Download uv from official docs via powershell.
 
-*2.* ```uv version``` -> to check version 
+*2.* ```uv version``` -> to check version.
 
-*3.*  ```uv help```  -> displays all uv commands
+*3.*  ```uv help```  -> displays all uv commands.
 
-*4.* ```uv init .``` -> converts project to uv in existing folder
+*4.* ```uv init .``` -> converts project to uv in existing folder.
  
-```uv init projectname``` -> makes project from scratch
+```uv init projectname``` -> makes project from scratch.
 
-*5.* *pyproject.toml* file is very important in uv
+*5.* *pyproject.toml* file is very important in uv;
+It defines everything section wise -> denoted with ```[]```.
 
-It defines everything section wise -> denoted with ```[]```
-
-*6.* ```uv run hello.py``` -> to run python file
- _this will create a *.venv* file_
+*6.* ```uv run hello.py``` -> to run python file.
+_this will create a *.venv* file_.
 
 *7.* Connect your project with this *.venv* file  by clicking on python version at bottom of vscode then click on the recommended one.
 
-*8.* Can change python version from *.python-version* file
+*8.* Can change python version from *.python-version* file.
 _but ensure to update version in *toml* file as well_
 
-*9.* ```uv init --package projectname``` -> to make project following package rules
+*9.* ```uv init --package projectname``` -> to make project following package rules.
 _Will make src folder_
 
 
 
-*After making project following package rules*
+## After making project following package rules
 
 *1.* There'll be 3 sections in *toml* file b/w ```[]``` 
 
