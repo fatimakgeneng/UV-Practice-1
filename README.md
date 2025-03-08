@@ -1,4 +1,6 @@
-# Few get starter UV commands
+# Understanding the working of toml file
+
+## Few get starter UV commands
 
 *1.* Download uv from official docs via powershell.
 
@@ -26,7 +28,7 @@ _Will make src folder_
 
 
 
-## After making project following package rules
+### After making project following package rules
 
 *1.* There'll be 3 sections in *toml* file b/w ```[]``` 
 
