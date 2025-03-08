@@ -1,0 +1,17 @@
+[project]
+name = "project2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+fatima = "project2:func2"
+karachi = "project2.hello:myfunction"
+sirzia = "karachi.lahore.myfile:greet"
+myhome = "asia.pakistan.karachi.northnazimabad.blockj:home"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
